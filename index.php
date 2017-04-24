@@ -8,10 +8,10 @@
 <center>
 <h3>Total Hits</h3>
 			<?php 
-					 $l='datafile.txt';
+					 $l='https://dzapps.github.io/Page-Hit-Counter/datafile.txt';
       				 $c= trim(file_get_contents($l)) or $c=000;
      				 for($i=0;$i<strlen($c);$i++){
-          					echo "<img src='img/".$c[$i].".jpg'/>";
+          					echo "<img src='https://dzapps.github.io/Page-Hit-Counter/img/".$c[$i].".jpg'/>";
       				 }
 			
 				     
